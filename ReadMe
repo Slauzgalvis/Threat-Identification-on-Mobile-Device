@@ -1,0 +1,278 @@
+TeamFly Program 2017.01.09
+
+Support can be reached at:
+E-mail: deividas.slauzgalvis@mif.stud.vu.lt
+E-mail: kristupas.kavaliunas@mif.stud.vu.lt
+E-mail: klaidas.lekavicius@mif.stud.vu.lt
+E-mail: mindaugas.straksys@mif.stud.vu.lt
+
+GENERAL USAGE NOTES
+--------------------
+- To start "TeamFly" program open terminal and go to TeamFly directory of the Program. Give permissions to the script with command "chmod +x Main.sh" and start script with command "./Main.sh".
+- Program is created for linux users to analyze Android device.
+- Program requires internet connection.
+- Make sure only one device is connected to your computer USB port.
+
+PROGRAM "TeamFly" FUNCTIONALITY
+--------------------------------
+- To Analyze Images With '.jpg' Extension.
+- To Analyze Videos With '.mp4' Extension.
+- Malware Threats Indentification.
+- Device's Full System Block Extraction.
+
+THE DATA THAT PROGRAM TAKES FROM DEVICE IS NOT MODIFIED!
+---------------------------------------------------------
+To check if analyzed data is not modified by program type:
+* "sha1sum filename" and compare with code in html analyzation.
+* "md5sum filename" and compare with code in html analyzation.
+
+ROOTING
+--------
+- If device is not rooted please check "Device list that can be rooted" if "TeamFly" program using "KingoRoot" can do that.
+
+Device list that can be rooted *The list is not full*
+------------------------------------------------------ 
+
+Samsung
+    Samsung Galaxy Note 3 (N9006)
+    Samsung Galaxy Note (i9220)
+    Samsung Galaxy Note II (N7100)
+    Samsung i500
+    Samsung i535
+    Samsung i699
+    Samsung i777
+    Samsung i879
+    Samsung i939
+    Samsung i959
+    Samsung i9000
+    Samsung i9001
+    Samsung i9100
+    Samsung i9105
+    Samsung i9152
+    Samsung i9300
+    Samsung i9308
+    Samsung S5830
+    Samsung S5660
+    Samsung i9500
+    Samsung S7562
+    Samsung T959
+
+Google
+    Google Nexus 5
+    Google Nexus 4
+    Google Galaxy Nexus (GSM)
+    Google Nexus S
+    Google Nexus One
+
+HTC
+    HTC 920E
+    HTC Wildfire S
+    HTC Wildfire
+    HTC Vision
+    HTC Thunderbolt
+    HTC Tattoo
+    HTC Sensation
+    HTC Salsa
+    HTC Runnymede
+    HTC Rhyme
+    HTC Rezound
+    HTC Raider 4G
+    HTC Primotd
+    HTC Primotds
+    HTC One X
+    HTC One V
+    HTC One S (S3)
+    HTC One S
+    HTC One
+    HTC Mytouch 4G Slide
+    HTC Mytouch 4G
+    HTC Mytouch 3G
+    HTC Magic
+    HTC Legend
+    HTC Incredible S (G11)
+    HTC Incredible 2
+    HTC Incredible
+    HTC Hero 200
+    HTC Hero
+    HTC EVO Shift 4G
+    HTC EVO 4G
+    HTC EVO 3D GSM
+    HTC EVO 3D CDMA
+    HTC Droid Eris
+    HTC Dream
+    HTC Desire Z
+    HTC Desire S
+    HTC Desire HD
+    HTC Desire
+    HTC Chacha
+    HTC Aria
+    HTC Amaze 4G
+
+Motorola
+    Moto Defy Me 525
+    Moto Defy Me 525+        
+
+LG
+    LG Optimus Black (P970)
+    LG  Optimus 2X (P990)
+    LG Optimus One (P500)
+    LG Optimus 3D (P920)
+    LG Optimus G2X (P999)
+    LG Optimus Pro (C660)
+    LG Optimus Hub (E510)
+    LG Optimus Sol (E730)
+    LG Optimus LTE (LU6200)      
+    LG Optimus L3 (E400)
+    LG Optimus Net (P690)
+    LG Optimus 2X SU660
+    LG Optimus 3D Max P720
+    LG Optimus L3 E405
+    LG Optimus L5 E615
+    LG Optimus L5 II Dual E455
+    LG Optimus L5 E610
+    LG Optimus L9 P760
+    LG Optimus LTE SU640
+    LG Optimus Vu 2      
+
+Sony
+    Sony Xperia Z Ultra C6802        
+    Sony C1504 Xperia E
+    Sony Xperia ZL C6502
+    Sony Xperia P(LT22i)
+    Sony Xperia Acro S(LT26w)
+    Sony Xperia TX (LT29i)
+    Sony Xperia S (LT26i)
+    Sony Xperia Z (L36h)
+    Sony Xperia Arc S (LT18i)
+    Sony Xperia Arc (LT15i)
+    Sony Xperia Neo (MT15i)
+
+Huawei
+    Huawei A199
+    Huawei C8650
+    Huawei C8810
+    Huawei C8812
+    Huawei C8812e
+    Huawei C8813
+    Huawei C8813D
+    Huawei C8813Q
+    Huawei C8815
+    Huawei C8825D
+    Huawei C8950D
+    Huawei G510
+    Huawei G520
+    Huawei G520 T10
+    Huawei G610C
+    Huawei HN3
+    Huawei MT1
+    Huawei P6 C00
+    Huawei P6 T00
+    Huawei P6 U06
+    Huawei T8620
+    Huawei T8830
+    Huawei T8830 Pro
+    Huawei T8833
+    Huawei T8951
+    Huawei U8833
+    Huawei U8860
+    Huawei U9508
+    Huawei Y210C
+    Huawei Y210S
+    Huawei Y300C        
+    Huawei Y320T
+    Huawei Y500
+    Huawei Y625
+    Huawei U9200
+    Huawei U9200E
+    Huawei U9500
+
+Alcatel
+    Alcatel One Touch 995
+    Alcatel One Touch D918
+    Alcatel One Touch D918d
+    Alcatel One Touch Evolve
+    Alcatel One Touch Fierce
+    Alcatel One Touch Fierce 1
+    Alcatel One Touch Hero
+    Alcatel One Touch iDol S
+    Alcatel One Touch Idol X
+    Alcatel One Touch POP C5
+    Alcatel One Touch Scribe Easy
+    Alcatel One Touch Snap LTE
+    Alcatel OT 991
+    Alcatel OT 997d
+    Alcatel OT iDol
+    Alcatel OT iDol Ultra
+    Alcatel OT Scribe HD
+    Alcatel OT Star 6010 Silver
+    Alcatel POP C3       
+
+Lenovo
+    Lenovo A60
+    Lenovo A60+
+    Lenovo A390
+    Lenovo A630
+    Lenovo A690
+    Lenovo A706
+    Lenovo A800
+    Lenovo A820
+    Lenovo A830
+    Lenovo A850
+    Lenovo iDeaphone K860         
+    Lenovo K800         
+    Lenovo K900 New
+    Lenovo Lephone S560
+    Lenovo Lephone S880
+    Lenovo P700
+    Lenovo P700i
+    Lenovo P780
+    Lenovo S720
+    Lenovo S820
+    Lenovo S890
+
+Micromax
+    Micromax A25
+    Micromax A50 Ninja
+    Micromax Ninja A54
+    Micromax A57 Ninja 3.0
+    Micromax Viva A72
+    Micromax Viva A73
+    Micromax Viva A73
+    Micromax A87 Ninja 4.0
+    Micromax A88
+    Micromax Ninja A89
+    Micromax A90
+    Micromax A90s
+    Micromax Ninja A91        
+    Micromax A111 Canvas Doodle
+    Micromax A115 Canvas 3D
+    Micromax Funbook Infinity P275
+
+Acer
+    Acer Iconia Tab A100
+    Acer Iconia Tab A101
+    Acer Iconia A1-810
+    Acer Iconia A1-811
+    Acer Iconia A200
+    Acer Iconia A211
+    Acer Iconia A500
+    Acer Iconia A501
+    Acer Iconia A700
+    Acer Iconia B1-A71
+    Acer Liquid E1 Dual V360
+    Acer Liquid Z110 Duo
+    Acer Liquid Z2
+    Acer Liquid Z3
+
+Asus
+    ASUS Nexus 7 2013
+    ASUS Nexus 7
+    ASUS Transformer Pad TF300T
+    ASUS Transformer Pad TF300TG
+    ASUS Eee Pad Transformer TF101
+    ASUS Transformer Prime TF201
+    ASUS Transformer Prime TF700T
+    Asus Memo Pad ME172V
+    ASUS MeMO Pad Smart ME301T
+    ASUS PadFone 2
+    Asus PadFone Infinity 2
